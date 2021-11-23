@@ -1,0 +1,32 @@
+public class item {
+	private String ProductName;
+	private double Price;
+	private String ProductType;
+	private String StoreName;
+	private String StoreId;
+	private String Category;
+	private String Description;
+	private String Gender;
+	private String Store;
+	private String Inventory;
+	private String Brand;
+	private int Quant;
+	private String Color;
+	private int SKT;
+	private double Size;
+	private String IMG;
+	private String ProductLink;
+	// Parameters for object, Constructor methods
+	
+	public item(int SKT, String PT, double PN, String Str,String SID, String Brd, String Cat, String Des, String Gdr, 
+			double Sze, String Clr,  NewMoney Prc, String Img, int quant, String ProductLink) {
+	}
+		
+	
+	// default  method
+	public item() {
+		
+	}
+
+	
+}
